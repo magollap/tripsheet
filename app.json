@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "Tripsheet",
+    "slug": "tripsheet",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "icon": "./assets/icon.png",
+    "ios": {
+      "bundleIdentifier": "com.magollap.tripsheet",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.magollap.tripsheet",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#103A32"
+      }
+    },
+    "plugins": [
+      "expo-sharing"
+    ]
+  }
+}
